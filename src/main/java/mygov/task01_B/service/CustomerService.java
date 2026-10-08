@@ -1,7 +1,7 @@
 package mygov.task01_B.service;
 
-import mygov.task01_B.Customer;
-import mygov.task01_B.CustomerRepository;
+import mygov.task01_B.data.Customer;
+import mygov.task01_B.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

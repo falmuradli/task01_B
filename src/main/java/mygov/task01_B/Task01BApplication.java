@@ -1,5 +1,7 @@
 package mygov.task01_B;
 
+import mygov.task01_B.data.Customer;
+import mygov.task01_B.repository.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

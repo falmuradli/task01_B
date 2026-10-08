@@ -1,5 +1,6 @@
-package mygov.task01_B;
+package mygov.task01_B.repository;
 
+import mygov.task01_B.data.Customer;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;

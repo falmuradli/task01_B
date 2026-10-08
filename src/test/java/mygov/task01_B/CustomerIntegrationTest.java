@@ -1,5 +1,6 @@
 package mygov.task01_B;
 
+import mygov.task01_B.data.Customer;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.webtestclient.autoconfigure.AutoConfigureWebTestClient;
@@ -21,7 +22,7 @@ public class CustomerIntegrationTest {
     @Test
     void getAllCustomers_shouldReturnCustomers() {
         webTestClient.get()
-                .uri("/customes")
+                .uri("/customers")
                 .exchange()
                 .expectStatus().isOk()
                 .expectBodyList(Customer.class);

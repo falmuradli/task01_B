@@ -1,5 +1,6 @@
 package mygov.task01_B;
 
+import mygov.task01_B.data.Customer;
 import mygov.task01_B.service.CustomerService;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
